@@ -1,0 +1,83 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 9992
+
+Current time: 	3/6/17 10:06:52 AM SGT
+Time zone: 	Singapore Time (Asia/Singapore)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	Zhang Shaoshi
+User home directory: C:/Users/Zhang Shaoshi
+User working directory: E:/game
+User country: 	SG
+User language: 	en
+User locale: 	en_SG
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/Zhang Shaoshi/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/Zhang Shaoshi/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	229 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 416 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// [GUI Memory]: 37 MB (+36661kb) [00:00:11]
+// [Engine Memory]: 395 MB (+262470kb) [00:00:11]
+// Opening Vivado Project: E:\game\game.xpr. Version: Vivado v2016.2 
+// Tcl Message: open_project E:/game/game.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 416 MB. GUI used memory: 26 MB. Current time: 3/6/17 10:06:53 AM SGT
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// [Engine Memory]: 416 MB (+1362kb) [00:00:16]
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/game/game.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 457 MB (+20959kb) [00:00:26]
+// [GUI Memory]: 48 MB (+9276kb) [00:00:29]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 478 MB. GUI used memory: 31 MB. Current time: 3/6/17 10:07:10 AM SGT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, bL:g)
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, bL:g)
+selectButton("RDIResource.ProgressDialog_ARE_YOU_SURE_YOU_WANT_TO_CANCEL_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. INFO: [Common 17-344] 'set_property' was cancelled INFO: [Common 17-344] 'set_property' was cancelled INFO: [Common 17-344] 'open_project' was cancelled 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+closeMainWindow("game - [E:/game/game.xpr] - Vivado 2016.2"); // cv:JFrame
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit vivado.<br>If you choose to abort background task and exit immediately, you will lose all unsaved<br>changes to project. (Background Task)'
+// TclEventType: FILE_SET_CHANGE
+// y:y (cv:JFrame): Invalid Top Module: addNotify
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 489 MB (+9804kb) [00:01:08]
+// [GUI Memory]: 53 MB (+2570kb) [00:01:23]
+// TclEventType: FILE_SET_CHANGE

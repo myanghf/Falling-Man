@@ -1,0 +1,144 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 10612
+
+Current time: 	3/6/17 10:06:37 AM SGT
+Time zone: 	Singapore Time (Asia/Singapore)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	Zhang Shaoshi
+User home directory: C:/Users/Zhang Shaoshi
+User working directory: E:/game
+User country: 	SG
+User language: 	en
+User locale: 	en_SG
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/Zhang Shaoshi/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/Zhang Shaoshi/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	212 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 412 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: E:\game\game.xpr. Version: Vivado v2016.2 
+// [GUI Memory]: 32 MB (+30772kb) [00:00:08]
+// [Engine Memory]: 393 MB (+261110kb) [00:00:08]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/game/game.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/game/game.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'I:/game' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 424 MB. GUI used memory: 27 MB. Current time: 3/6/17 10:06:39 AM SGT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 42 MB (+8869kb) [00:00:15]
+// [Engine Memory]: 458 MB (+47080kb) [00:00:15]
+// [GUI Memory]: 53 MB (+9175kb) [00:00:16]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 57 MB (+1276kb) [00:00:35]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: game; location: E:/game; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:41 . Memory (MB): peak = 737.012 ; gain = 85.340 
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 485 MB (+4457kb) [00:00:51]
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (game.v) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), CL1 - slow_clock_40 (slow_clock.v)]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), CL1 - slow_clock_40 (slow_clock.v)]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), CL1 - slow_clock_40 (slow_clock.v)]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 60 MB (+1186kb) [00:00:56]
+// HMemoryUtils.trashcanNow. Engine heap size: 505 MB. GUI used memory: 33 MB. Current time: 3/6/17 10:07:27 AM SGT
+minimizeFrame(PAResourceOtoP.PAViews_DESIGN_RUNS, "Design Runs"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), EG - blinky (blinky.v)]", 11, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), EG - blinky (blinky.v)]", 11, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("blinky.v", 170, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("blinky.v", 109, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("blinky.v", 86, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "game.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), CL3 - slow_clock_4 (slow_clock_4.v)]", 4, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), CL3 - slow_clock_4 (slow_clock_4.v)]", 4, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 64 MB (+604kb) [00:01:45]
+// [Engine Memory]: 514 MB (+4494kb) [00:01:55]
+// Elapsed time: 73 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "game.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("game.v", 407, 373); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("game.v", 318, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor("game.v", 39, 297); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("game.v", 119, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 68 MB (+324kb) [00:04:37]
+// Elapsed time: 43 seconds
+selectCodeEditor("game.v", 67, 302); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("game.v", 129, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("game.v", 155, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 55 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), EG - blinky (blinky.v)]", 11, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), EG - blinky (blinky.v)]", 11, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 71 MB (+355kb) [00:07:37]
+// Elapsed time: 116 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 23 seconds
+selectCodeEditor("game.v", 169, 256); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("game.v", 202, 387); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 51 seconds
+selectCodeEditor("game.v", 157, 396); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("game.v", 189, 414); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 76 MB (+759kb) [00:10:26]
+// Elapsed time: 319 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), CL1 - slow_clock_40 (slow_clock.v)]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), CL1 - slow_clock_40 (slow_clock.v)]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), CL2 - slow_clock_1 (slow_clock_1.v)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), CL2 - slow_clock_1 (slow_clock_1.v)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), CL3 - slow_clock_4 (slow_clock_4.v)]", 4, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), CL3 - slow_clock_4 (slow_clock_4.v)]", 4, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+// [GUI Memory]: 80 MB (+423kb) [00:15:09]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// [GUI Memory]: 84 MB (+401kb) [00:26:14]
+// Elapsed time: 937 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), EG - blinky (blinky.v)]", 11, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, game (game.v), EG - blinky (blinky.v)]", 11, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 35 MB. Current time: 3/6/17 10:37:27 AM SGT
